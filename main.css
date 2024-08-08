@@ -47,5 +47,20 @@ p {
 .tableHeader{
   font-size:35px;
 }
-
-
+/* Button Adding Styling */
+.button-base {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #58bcaf;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+ 
+.button-base:hover {
+  background-color: #46a097;
+}
+ 
