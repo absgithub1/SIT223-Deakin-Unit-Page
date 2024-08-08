@@ -1,23 +1,49 @@
-/* Text Styling */
-h1 {
-  font-size: 45px;
-  font-family: Arial
+/* Table */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
 }
-h2 {
-  font-size: 25px;
-  font-family: Arial
+.unit-details th, .unit-details td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  box-shadow:0 0 20px rgba(0, 0, 0, 0.15) !important
+
 }
-h3 {
-  font-family: Arial
+.unit-details td {
+  font-weight: 500;
+  font-family: arial;
+  font-size:20px;
+  
 }
-p {
-  font-size: 14px;
-  font-family: Arial
+.unit-details tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.unit-details tr:hover {
+  background-color: #58bcaf;
+}
+.tableHeader{
+  font-size:35px;
+}
+/* Button Adding Styling */
+.button-base {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #58bcaf;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
  
-/* Header */
-.deakinHeader {
-    background-color: #58bcaf;
-    padding: 20px;
-    text-align: right;
+.button-base:hover {
+  background-color: #46a097;
 }
+ 
+
