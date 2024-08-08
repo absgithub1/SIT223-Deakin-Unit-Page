@@ -1,21 +1,3 @@
-
-/* Text Styling */
-h1 {
-  font-size: 45px;
-  font-family: Arial
-}
-h2 {
-  font-size: 25px;
-  font-family: Arial
-}
-h3 {
-  font-family: Arial
-}
-p {
-  font-size: 14px;
-  font-family: Arial
-}
-
 /* Table */
 .content {
   display: flex;
