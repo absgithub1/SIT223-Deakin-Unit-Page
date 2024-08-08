@@ -1,7 +1,7 @@
 
-
+/* Text Styling */
 h1 {
-  font-size: 40px;
+  font-size: 45px;
   font-family: Arial
 }
 h2 {
@@ -14,6 +14,39 @@ h3 {
 p {
   font-size: 14px;
   font-family: Arial
+}
+
+
+/* Table */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.unit-details th, .unit-details td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  box-shadow:0 0 20px rgba(0, 0, 0, 0.15) !important
+
+}
+.unit-details td {
+  font-weight: 500;
+  font-family: arial;
+  font-size:20px;
+  
+}
+.unit-details tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.unit-details tr:hover {
+  background-color: #58bcaf;
+}
+.tableHeader{
+  font-size:35px;
 }
 
 
