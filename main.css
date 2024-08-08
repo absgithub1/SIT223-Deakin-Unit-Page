@@ -1,3 +1,27 @@
+/* Text Styling */
+h1 {
+  font-size: 45px;
+  font-family: Arial
+}
+h2 {
+  font-size: 25px;
+  font-family: Arial
+}
+h3 {
+  font-family: Arial
+}
+p {
+  font-size: 14px;
+  font-family: Arial
+}
+ 
+/* Header */
+.deakinHeader {
+    background-color: #58bcaf;
+    padding: 20px;
+    text-align: right;
+}
+
 /* Table */
 .content {
   display: flex;
